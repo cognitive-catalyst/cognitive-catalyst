@@ -1,0 +1,7 @@
+2 Week Sprint ending 2015/04/10
+
+Tasks:
+Develop QImport roadmap
+QImport 0.1.1
+QImport 0.2.0
+Add 2 additional tools
