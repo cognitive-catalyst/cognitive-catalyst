@@ -4,6 +4,7 @@ tmp/
 *.bak
 *.swp
 *~.nib
+*.~csv
 target/
 
 # Eclipse Core

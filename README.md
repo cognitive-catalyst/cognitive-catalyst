@@ -1,5 +1,5 @@
 #Watson Catalyst
-Watson Catalyst is an open source project for the collaborative development of projects built around Watson.
+Watson Catalyst is an open source community for the development of extensions on the Watson platform to enable and accelerate the development of applications using Watson services. 
 
 **Mission**  
 To empower and engage people to collaboratively develop open source software which
@@ -11,24 +11,26 @@ To empower and engage people to collaboratively develop open source software whi
 A world where people collaboratively solve problems using Watson.
 
 ##1 Structure
-The Watson Catalyst project operates on two tiers:
-1. Catalyst, the main repository, and
-2. Subprojects.
+Watson Catalyst is a community of independent open source projects. Each project is governed independently, but is held to certain standards of licensing, documentation, code style, and functionality.
 
-###1.1 Catalyst
-The Catalyst repository contains the latest IBM-approved releases of projects in the Watson Catalyst project.
+###1.1 Licensing
+Watson Catalyst is licensed under the MIT License. To be included in the community, a project must use a non-copyleft open source license. We recommend the MIT, Apache, and BSD licenses since these are easy for IBMers to contribute to.
 
-1. If you're getting started and want to see what Watson Catalyst has to offer, have a look through the Projects List below.
-2. If you want to dive in and download the entire repository, use:  
-       git clone --recursive https://hub.jazz.net/git/willbeason/Watson.Utilities
-3. (IN THE FUTURE) If you just want a specific tool, use:  
-       git clone https://hub.jazz.net/git/willbeason/Watson.Utilities
-       cd Watson.Utilities
-       cd <project directory>
-       submodule update --recursive
+###1.2 Documentation
+Projects must have documentation including the following:
+- [ ] a description of what the project does,
+- [ ] step-by-step installation instructions,
+- [ ] a working example with input and expected output,
+- [ ] a roadmap of future developments, and
+- [ ] an email for the maintainer of the project.
 
-###1.2 Subprojects
-Subprojects are where the development happens. Each is governed semi-independently and makes regular releases to Catalyst. They are required to meet certain standards such as documentation, code style, and functionality. If you're interested in contributing to a Watson Catalyst project, see [our contributing page](contributing.md).
+The project maintainer is responsible for responding to pull requests, documentation inquiries, and bug reports. The project maintainer is not responsible for contributing code or fixing bugs.
+
+###1.3 Code Style
+Projects may be written in any language. If a project's language is in the [Google Style Guide](https://code.google.com/p/google-styleguide/), the project should conform to those standards. 
+
+###1.4 Functionality
+Projects must do what they say they do. For example, if a project claims to upload questions to an instance, it should include a working example file to upload.
 
 ##2 Using a Tool
 Each project in Watson Catalyst comes with documentation and working examples to get you started. See the README.md located in the project's main directory. If something doesn't work, contact the project's maintainer. You can find the maintainer's contact information in the project's README.md.
