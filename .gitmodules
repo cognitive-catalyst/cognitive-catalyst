@@ -1,0 +1,3 @@
+[submodule "JumpQA"]
+	path = JumpQA
+	url = https://hub.jazz.net/git/willbeason/JumpQA
