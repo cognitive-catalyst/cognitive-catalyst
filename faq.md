@@ -2,11 +2,11 @@
 
 ##New Projects
 
-**Q:** Why do you recommend the MIT License?
+**Q:** Why do you recommend the Apache License?
 
-**A:** In general because it is short, simple, and to the point. It has been used by many open source software projects.
+**A:** In general because it is a non-public license which IBM is very familiar with.
 
-We specifically recommed the Watson Catalyst subprojects use the MIT License to encourage project modularity. For example, some projects are written as libraries to be used by others, and the legal issues with open source software are much easier to deal with when every piece of code shares the same license.
+We specifically recommed the Watson Catalyst subprojects use the Apache License to encourage project modularity. For example, some projects are written as libraries to be used by others, and the legal issues with open source software are much easier to deal with when every piece of code shares the same license.
 
 
 **Q:** What documentation does my project need in order to be accepted?
@@ -15,7 +15,6 @@ We specifically recommed the Watson Catalyst subprojects use the MIT License to 
 * installation/setup instructions,
 * sample input and expected output, and
 * contact information for the project maintainer.
-
 
 ##Approval Process
 
