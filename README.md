@@ -1,5 +1,5 @@
 #Watson Catalyst
-Watson Catalyst is an open source community for the development of extensions on the Watson platform to enable and accelerate the development of applications using Watson services. 
+An open source community for the development of extensions on the Watson platform to enable and accelerate the development of applications using Watson services. 
 
 **Mission**  
 To empower and engage people to collaboratively develop open source software which
@@ -10,20 +10,37 @@ To empower and engage people to collaboratively develop open source software whi
 **Vision**  
 A world where people collaboratively solve problems using Watson.
 
+##Quick Start
+*See also: [Quick Start](QuickStart.md)*
+
+If you just want to download projects but not contribute, you can easily get all available projects by downloading the Catalyst repository. You will need [Git](https://git-scm.com/downloads) installed. Note that this may take considerable time and space. See the full article for other options.
+
+Launch a terminal or Git Bash. In your directory of choice, enter
+```
+git clone path/to/repo
+cd WatsonCatalyst
+git submodule update --init --recursive
+```
+This will get you the most recent Catalyst releases of every project. Whenever you want to ensure you have the latest versions of every project, run
+```
+git pull path/to/repo
+git submodule update --init --recursive
+```
+
+##About Us
+*See also: [About Us](AboutUs.md)* 
+
+
+
+##Structure
+*See also: [Structure](Structure.md)*
+
+Watson Catalyst is a community of independent open source projects. Each project is governed mostly independently, but is held to certain standards of documentation and functionality. These are detailed in the [Community Standards](CommunityStandards.md).
+
+
 ##1 Licensing
 Catalyst is licensed under the Apache License Version 2.0.
 
-##2 Structure
-Watson Catalyst is a community of independent open source projects. Each project is governed mostly independently, but is held to certain standards of documentation and functionality. These are detailed in the [Community Standards](CommunityStandards.md). 
-
-###2.1 Catalyst
-This repository, Catalyst, contains the latest releases of all linked projects, a description of the Watson Catalyst project, and legal documents. 
-
-###2.2 Projects
-Each project falls into one of two categories, IBM-led and external-led. External-led projects may be started at any time by non-IBMers and hosted anywhere, but they must conform to the Catalyst Community Standards for the Catalyst repository to include them. For IBMers to contribute to external-led projects, we have an internal process to approve projects.
-
-###2.3 Moderators
-Moderators (listed at the end of this document) govern the community. They resolve disputes, accept new projects and releases, and liaison with IBM Watson teams. For now IBM will appoint moderators, but we intend the community to hold elections in early 2016 to elect new ones.
 
 ##3 Downloading Catalyst
 To download the entire Catalyst repository, you will need [Git](https://git-scm.com/downloads) installed. Launch Git Bash.
