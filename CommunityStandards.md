@@ -11,7 +11,7 @@ These are the standards to which we hold all Catalyst projects.
 Failing to meet any of these requirements are grounds for the rejection of new projects or removal from Catalyst.
 
 ##1.1 Licensing
-Projects must have an open source license. 
+- [ ] Projects must have an open source license. 
 
 ##1.2 Documentation
 Projects must have documentation including the following:
@@ -21,11 +21,14 @@ Projects must have documentation including the following:
 - [ ] an email for the maintainer of the project.
 
 ##1.3 Code
-All code must be contributed by a contributor who has a Catalyst contributor license agreement on file with IBM.
+- [ ] All code must be contributed by a contributor who is either an IBM employee or has a Catalyst contributor license agreement on file with IBM.
 
 ##1.4 Concept and Functionality
 A Catalyst project must meet the following standards:
-- [ ] The project must provide some benefit to the use of a Watson service.
+- [ ] The project should make a Watson service easier to use. It should
+  - [ ] automate tasks,
+  - [ ] simplify tasks, or
+  - [ ] facilitate integration for a Watson service. 
 - [ ] The project is universal. It is not only usable by specific users, with specific content, or on specific Watson instances.
 - [ ] The project uses only publicly-available APIs.
 - [ ] The project is well designed. It is unlikely to cause unintentional irreparable damage to an instance.

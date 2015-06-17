@@ -27,4 +27,10 @@ git clone path/to/repo
 This will download the Catalyst repository but none of the Projects. 
 
 ##Downloading Individual Projects
+Projects will initially show up as empty directories in your local Catalyst repository. To initialize one, type:
+```
+git submodule update --init ProjectName/
+```
 
+##Using Projects
+Every project included in Catalyst is required to have documentation including installation instructions, working examples, and project maintainer contact information. See the project's README.md. If you have questions about using the project or find a bug, contact the maintainer.

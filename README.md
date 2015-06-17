@@ -1,14 +1,7 @@
 #Watson Catalyst
 An open source community for the development of extensions on the Watson platform to enable and accelerate the development of applications using Watson services. 
 
-**Mission**  
-To empower and engage people to collaboratively develop open source software which
-* augments Watson's capability,
-* makes it easier develop Watson apps, and
-* does cool things with Watson.
-
-**Vision**  
-A world where people collaboratively solve problems using Watson.
+This document is a draft - information in it is subject to change in major ways as we figure out what we want this community to look like at launch.
 
 ##Quick Start
 *See also: [Quick Start](QuickStart.md)*
@@ -28,8 +21,14 @@ git submodule update --init --recursive
 ```
 
 ##About Us
-*See also: [About Us](AboutUs.md)* 
+**Mission**  
+To empower and engage people to collaboratively develop open source software which
+* augments Watson's capability,
+* makes it easier develop Watson apps, and
+* does cool things with Watson.
 
+**Vision**  
+A world where people collaboratively solve problems using Watson.
 
 
 ##Structure
