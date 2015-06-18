@@ -38,7 +38,7 @@ Anyone may contribute to Catalyst. Feel free to clone projects, make changes, an
 ##Structure
 *See also: [Structure](Structure.md)*
 
-Watson Catalyst is a community of independent open source projects. Each project is governed mostly independently, but is held to certain standards. These [Community Standards](CommunityStandards.md) will be developed by the community as needed.
+Watson Catalyst is a community of independent open source projects. Each project is governed independently, but is held to certain standards. These [Community Standards](CommunityStandards.md) will be developed by the community as needed.
 
 ##Projects
 * [JumpQA](https://github.com/watson-catalyst/jump-qa) - create ground truth from a corpus
@@ -57,12 +57,12 @@ Watson Catalyst is a community of independent open source projects. Each project
 We keep a wish list of tools we'd like people to work on, but have not yet started or added to Catalyst.
 
 ##Links
-* [FAQ](faq.md)
-* [Contributing](Contributing.md)
+* [FAQ](FAQ.md)
 
 ##Licensing
 Catalyst is licensed under the [Apache License Version 2.0](License.txt).
 
+##Contact
 Point of Contact: [ostools@us.ibm.com](mailto:ostools@us.ibm.com)
 
 Moderators:
