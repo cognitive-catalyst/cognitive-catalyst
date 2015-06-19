@@ -20,13 +20,13 @@ If you just want to download projects, you can easily get all available projects
 
 Launch a terminal or Git Bash. In your directory of choice, enter
 ```
-git clone https://github.com/watson-catalyst/catalyst.git
+git clone https://github.com/watson-catalyst/watson-catalyst.git
 cd WatsonCatalyst
 git submodule update --init --recursive
 ```
 This will get you the most recent Catalyst releases of every project. Whenever you want to ensure you have the latest versions of every project, run
 ```
-git pull https://github.com/watson-catalyst/catalyst.git
+git pull https://github.com/watson-catalyst/watson-catalyst.git
 git submodule update --init --recursive
 ```
 
@@ -67,4 +67,3 @@ Point of Contact: [ostools@us.ibm.com](mailto:ostools@us.ibm.com)
 
 Moderators:
 - [William Beason](mailto:wabeason@us.ibm.com)
-- 

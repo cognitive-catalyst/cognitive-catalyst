@@ -61,8 +61,8 @@ We want to community to take the reins as soon as possible. If you are intereste
 A project maintainer's duties include
 * responding to questions about using the project, examples, documentation,
 * tracking and resolving bugs,
-* monitoring contributions and requesting CLAs as necessary,
-* reviewing pull requests, and
+* reviewing pull requests,
+* monitoring contributions and requesting CLAs as necessary, and
 * contacting us to update the project's version on Catalyst.
 
 ##Private APIs
