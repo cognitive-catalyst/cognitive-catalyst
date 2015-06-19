@@ -1,65 +1,88 @@
 #Frequently Asked Questions
 
+##Contributing
+
+**Q:** What do I need to do in order to contribute?
+
+**A:** Just start contributing! See our [Contributing](Contributing.md) page for more information.
+
+
+**Q:** What do you mean by "significant contributions"?
+
+**A:** There isn't a hard and fast rule for this.
+
+At some point, if you contribute enough to a specific organization's projects, they may decide to have you sign a Contributor License Agreement. That threshold, or even whether they even have CLAs, is up to the individual organization and the project maintainers.
+
 ##New Projects
 
 **Q:** Why do you recommend the Apache License?
 
 **A:** In general because it is a non-public license which IBM is very familiar with.
 
-We specifically recommed the Watson Catalyst subprojects use the Apache License to encourage project modularity. For example, some projects are written as libraries to be used by others, and the legal issues with open source software are much easier to deal with when every piece of code shares the same license.
+We specifically recommend the Watson Catalyst projects use the Apache License to encourage project modularity. For example, some projects are written as libraries to be used by others, and the legal issues with open source software are much easier to deal with when every piece of code shares the same license.
 
 
-**Q:** What documentation does my project need in order to be accepted?
+**Q:** What is required of new Catalyst projects?
 
-**A:** At a minimum, your project should have a README.md with the following:
-* installation/setup instructions,
-* sample input and expected output, and
-* contact information for the project maintainer.
+**A:** This is something the community will hash out, but to start we have some general guidelines to start.
 
-##Approval Process
-
-**Q:** Who approves projects and releases?
-
-**A:** We have a rotating team of 8 members who meet regularly to review projects and code. The team is made of:
-* 2 Watson Ecosystem team members
-* 1 Watson Lab Services team member
-* 1 Watson Core team member
-* 4 Watson Partner team members
-
-In order for a new project or release to be approved, it needs to be approved by at least 6 of 8 members.
+1. The project must have an open source license
+2. There should be an active project maintainer
+3. The project should have enough documentation to get a new user or developer started 
+4. The project should either have something to do with Watson or be a dependency of a Catalyst project (see the next question)
 
 
-##Dependencies
-**Q:** I own Project A and want to use features in Project B. How do I do that?
+**Q:** What is the difference between a project and a library? Why the distinction?
 
-**A:** First, review the license of the dependency to make sure there will be no legal issues. 
+**A:** Think of libraries as a special subset of the Catalyst projects which is not subject to the same topicality restrictions.
 
-Then, add the dependency as a submodule. This can be done wherever is most convenient in your repository.
-
-    git submodule add <link/to/ProjectB/repository>
-
-This will create a static reference to the submodule which will not change with updates.
+We want to keep Catalyst projects "on topic" but also love the idea of people sharing code between projects. This community was started because developers were spending too much time doing things someone else had already solved. So the *libraries* are a special class of Catalyst project that doesn't necessarily need to directly deal with accelerating the development of Watson apps. They should, however, be dependencies of other Catalyst projects.
 
 
-**Q:** I own Project A which depends on Project B. What happens if Project B is updated?
+**Q:** How do I get a project accepted as a library in Catalyst?
 
-**A:** If you added the project as a submodule as described above, nothing. Submodule links are to specific commits, not the current state of the repository. The submodule state only changes when you manually update it or point it to a different commit.
+**A:** If your library obviously deals with working with Watson, don't worry about it and let the moderators know. Otherwise, there should be an existing Catalyst project which depends on it.
 
-We encourage projects to use the latest versions of their dependencies as on Watson Catalyst. We also discourage dependencies from breaking existing functionality except on major version updates. As long as your project does not rely on a bug in the dependency, it should work with future versions which have the same major version number.
+Organically, you'll figure out something should be a library during refactoring when it becomes apparent that either several projects rely on very similar code or that a part of a project is substantial enough to stand on its own and would be useful to other developers. When this happens, we encourage you to create a new repository with your library and let us know your project depends on it.
+
+##Governance
+
+**Q:** Is this community governed by IBM?
+
+**A:** For the moment, yes.
+
+We want to community to take the reins as soon as possible. If you are interested in joining us to help lead Catalyst during its infancy, [let us know](ostools@us.ibm.com).
 
 
-**Q:** I own Project A made a branch of Project B with a cool new feature my project now depends on. Can I get that feature included in a future update with Project B?
+**Q:** What is a project maintainer?
 
-**A:** Awesome! Absolutely. Contact the maintainer of Project B and make a pull request. If Project B has no maintainer (it is inactive), you can [email us](wabeason@us.ibm.com) to become the project maintainer.
-
-
-##Project Maintainers
-**Q:** What a project maintainer?
-
-**A:** The project maintainer(s) are a group of people who are responsible for the upkeep of a project. Their contact information is listed on the README.md in the main directory of every active project.
+**A:** Each project has an individual or group who are responsible for the upkeep of a project.
 
 A project maintainer's duties include
 * responding to questions about using the project, examples, documentation,
-* tracking bugs,
-* reviewing pull requests, and
+* tracking and resolving bugs,
+* reviewing pull requests,
+* monitoring contributions and requesting CLAs as necessary, and
 * contacting us to update the project's version on Catalyst.
+
+##Private APIs
+
+**Q:** What are the "private APIs"?
+
+**A:** The private APIs are a set of unsupported APIs, generally for doing administrative tasks on instances for Watson services.
+
+To take the Q&A service as an example, this includes functions such as ingesting documents and adding new training questions.
+
+
+**Q:** Why may Catalyst projects not use private APIs?
+
+**A:** The IBM teams in charge of the private APIs do not currently support them.
+
+The APIs have not been tested for security and stability, and they are subject to major unannounced changes. The private API developers don't want to be locked into a specific set of APIs or functions at this stage in development.
+
+
+**Q:** Will it ever be okay for projects to use the private APIs?
+
+**A:** We hope so.
+
+Using the private APIs has greatly enabled IBMers and Watson partners (whom either IBM has told or who have figured them out on their own). There are at least 20 projects internal to IBM which are waiting on private API support before being open sourced. If you are a partner and want the private APIs to be supported and/or you have a project you'd like in Catalyst which uses the private APIs, [let us know](ostools@us.ibm.com) since it will give us more leverage in discussions with the IBM teams who develop and maintain the APIs.
