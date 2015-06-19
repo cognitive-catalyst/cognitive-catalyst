@@ -1,11 +1,10 @@
 # Catalyst Community Standards
 
-These are the standards to which we hold all Catalyst projects. For now, this is a first draft of what should be a living document. If you think something should be changed [drop us a note!](mailto:ostools@us.ibm.com).
+These are the standards to which we hold all Catalyst projects. For now, this is a first draft of what should be a living document. If you think something should be changed [drop us a note](mailto:ostools@us.ibm.com)!
 
 ## Guiding Principles
 - Catalyst projects provide benefit to the use of Watson
 - Catalyst projects are easily usable by anyone, anywhere
-- All community governance is transparent and community-driven
 
 ##1 Minimum Requirements
 Failing to meet any of these requirements are grounds for the rejection of new projects or removal from Catalyst.
@@ -28,7 +27,7 @@ A Catalyst project must meet the following standards:
   - [ ] act as a library for other Catalyst projects.
 - [ ] The project is universal. It is not only usable by specific users, with specific content, or on specific Watson instances.
 - [ ] The project does not use the unsupported private APIs
-- [ ] The project is unlikely to cause unintentional irreparable damage to an instance.\
+- [ ] The project is unlikely to cause unintentional irreparable damage to an instance.
 
 ##1.4 Support
 - [ ] Projects must have at least one maintainer, someone who
