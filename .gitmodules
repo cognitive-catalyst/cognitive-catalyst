@@ -1,3 +1,9 @@
 [submodule "Projects/jump-qa"]
 	path = Projects/jump-qa
 	url = https://github.com/watson-catalyst/jump-qa.git
+[submodule "Projects/character-hack"]
+	path = Projects/character-hack
+	url = https://github.com/watson-catalyst/character-hack.git
+[submodule "Libraries/object-io"]
+	path = Libraries/object-io
+	url = https://github.com/watson-catalyst/object-io.git
