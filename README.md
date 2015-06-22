@@ -47,9 +47,9 @@ Watson Catalyst is a community of independent open source projects. Each project
 * [ObjectIO](https://github.com/watson-catalyst/object-io) - easily read and write Java objects
 
 ##Coming Soon
-* BaseProperties - a library to make using a configurable `.properties` file easier. Currently a part of JumpQA.
-* NeuralNet - a library for creating and training neural networks. Currently a part of JumpQA.
-* Corpus - a library for loading, manipulating, and running operations on corpora. Currently a part of JumpQA.
+*See also: [Coming Soon](ComingSoon.md)*
+
+There are currently 6 upcoming projects and 3 upcoming libraries.
 
 ##Wishlist
 *See also: [Wish List](Wishlist.md)*

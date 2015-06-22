@@ -5,12 +5,6 @@ To download projects, you will need [Git](https://git-scm.com/downloads) install
 
 If you just want a `.zip` containing an individual project, go to the project's GitHub link on the [Projects](Projects.md) page. On the right, there is a **Download ZIP** button. Note that this will not contain any submodules.
 
-To make full use of Catalyst you will want to become familiar with Git submodules.
-- [Documentation](http://git-scm.com/docs/git-submodule)
-- [Tutorial](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
-
-Essentially, once initialized you can use a submodule exactly as you would a normal repository.
-
 ##Downloading Everything
 Note that this may take considerable time and space. In your terminal, go to the directory in which you want the Catalyst folder to be contained. Type:
 ```
@@ -40,3 +34,20 @@ git submodule update --init ProjectName/
 
 ##Using Projects
 Every project included in Catalyst is required to have documentation including installation instructions, working examples, and project maintainer contact information. See the project's README.md. If you have questions about using the project or find a bug, contact the maintainer.
+
+##Contributing via Submodules
+**Failure to follow these directions may result in lost information.**
+
+To make full use of Catalyst you will want to become familiar with Git submodules.
+- [Documentation](http://git-scm.com/docs/git-submodule)
+- [Tutorial](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+
+After initializing a submodule, immediately create your own branch.
+
+    cd Project/project-name
+    git branch new/your-name
+    git checkout new/your-name
+
+
+
+
