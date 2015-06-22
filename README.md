@@ -31,7 +31,7 @@ git submodule update --init --recursive
 ```
 
 ##Contributing
-*See also: [Contributing](Contributing.md)*
+*See also: [Contributing](contributing.md)*
 
 Anyone may contribute to Catalyst. Feel free to clone projects, make changes, and create pull requests to project maintainers! 
 

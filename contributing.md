@@ -1,6 +1,8 @@
 #Contributing to Watson Catalyst
 Thank you for your interest in contributing to Watson Catalyst! If you are an IBMer, [see here](ContributingIBMers.md). For most cases you do not have to sign a CLA in order to begin contributing.
 
+Contributing to Catalyst can be made more organized by using [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). These are located in the Projects and Libraries subdirectories of Catalyst that act as a Git repository-within-a-repository. Submodule directories are initially empty; you'll want to see the [Quick Start](QuickStart.md) page for getting submodules set up. You can, of course, clone individual projects wherever you wish instead.
+
 ##CLAs
 As above, you are generally **not** required to sign a CLA in order to contribute to Catalyst or any of its projects. If you make significant contributions to a particular organization's projects, it is the organization's responsibility to let you know that you should sign and send them a CLA. 
 

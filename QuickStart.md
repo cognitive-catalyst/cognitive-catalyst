@@ -3,11 +3,13 @@ This article is for people who want to use projects, but not necessarily contrib
 
 To download projects, you will need [Git](https://git-scm.com/downloads) installed. To interact with Git, you will need a shell terminal. If you're on Windows, Git comes with Git Bash.
 
-If you just want a `.zip` containing an individual project, go to the project's GitHub link on the [Projects](Projects.md) page. On the right, there is a **Download ZIP** button.
+If you just want a `.zip` containing an individual project, go to the project's GitHub link on the [Projects](Projects.md) page. On the right, there is a **Download ZIP** button. Note that this will not contain any submodules.
 
 To make full use of Catalyst you will want to become familiar with Git submodules.
 - [Documentation](http://git-scm.com/docs/git-submodule)
-- [Tutorial](http://git-scm.com/docs/git-submodule)
+- [Tutorial](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+
+Essentially, once initialized you can use a submodule exactly as you would a normal repository.
 
 ##Downloading Everything
 Note that this may take considerable time and space. In your terminal, go to the directory in which you want the Catalyst folder to be contained. Type:
