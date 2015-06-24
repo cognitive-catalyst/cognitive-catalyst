@@ -1,18 +1,5 @@
 #Frequently Asked Questions
 
-##Contributing
-
-**Q:** What do I need to do in order to contribute?
-
-**A:** Just start contributing! See our [Contributing](Contributing.md) page for more information.
-
-
-**Q:** What do you mean by "significant contributions"?
-
-**A:** There isn't a hard and fast rule for this.
-
-At some point, if you contribute enough to a specific organization's projects, they may decide to have you sign a Contributor License Agreement. That threshold, or even whether they even have CLAs, is up to the individual organization and the project maintainers.
-
 ##New Projects
 
 **Q:** Why do you recommend the Apache License?
@@ -21,6 +8,7 @@ At some point, if you contribute enough to a specific organization's projects, t
 
 We specifically recommend the Watson Catalyst projects use the Apache License to encourage project modularity. For example, some projects are written as libraries to be used by others, and the legal issues with open source software are much easier to deal with when every piece of code shares the same license.
 
+We require a line in all pull requests stating acknowledgment with [DCO 1.1](http://elinux.org/Developer_Certificate_Of_Origin), and this makes
 
 **Q:** What is required of new Catalyst projects?
 
@@ -29,21 +17,7 @@ We specifically recommend the Watson Catalyst projects use the Apache License to
 1. The project must have an open source license
 2. There should be an active project maintainer
 3. The project should have enough documentation to get a new user or developer started 
-4. The project should either have something to do with Watson or be a dependency of a Catalyst project (see the next question)
-
-
-**Q:** What is the difference between a project and a library? Why the distinction?
-
-**A:** Think of libraries as a special subset of the Catalyst projects which is not subject to the same topicality restrictions.
-
-We want to keep Catalyst projects "on topic" but also love the idea of people sharing code between projects. This community was started because developers were spending too much time doing things someone else had already solved. So the *libraries* are a special class of Catalyst project that doesn't necessarily need to directly deal with accelerating the development of Watson apps. They should, however, be dependencies of other Catalyst projects.
-
-
-**Q:** How do I get a project accepted as a library in Catalyst?
-
-**A:** If your library obviously deals with working with Watson, don't worry about it and let the moderators know. Otherwise, there should be an existing Catalyst project which depends on it.
-
-Organically, you'll figure out something should be a library during refactoring when it becomes apparent that either several projects rely on very similar code or that a part of a project is substantial enough to stand on its own and would be useful to other developers. When this happens, we encourage you to create a new repository with your library and let us know your project depends on it.
+4. The project should either have something to do with Watson or be a dependency of a Catalyst project
 
 ##Governance
 
@@ -52,7 +26,6 @@ Organically, you'll figure out something should be a library during refactoring 
 **A:** For the moment, yes.
 
 We want to community to take the reins as soon as possible. If you are interested in joining us to help lead Catalyst during its infancy, [let us know](ostools@us.ibm.com).
-
 
 **Q:** What is a project maintainer?
 
