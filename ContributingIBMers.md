@@ -1,4 +1,8 @@
 #Contributing to Watson Catalyst
+**If you are an IBMer, feel free to contribute to any Catalyst project. Ignore the rest of this document for now.**
+
+---
+
 Thank you for your interest in contributing to Watson Catalyst! If you are not an IBMer, [see here](Contributing.md).
 
 ##1 Contributing to an existing Project
