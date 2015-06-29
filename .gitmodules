@@ -1,9 +1,11 @@
 [submodule "projects/jump-qa"]
 	path = projects/jump-qa
 	url = https://github.com/watson-catalyst/jump-qa.git
-[submodule "projects/character-hack"]
-	path = projects/character-hack
-	url = https://github.com/watson-catalyst/character-hack.git
 [submodule "projects/object-io"]
 	path = projects/object-io
 	url = https://github.com/watson-catalyst/object-io.git
+	branch = release/0.1.0
+[submodule "projects/qa-safe-strings"]
+	path = projects/qa-safe-strings
+	url = https://github.com/watson-catalyst/qa-safe-strings.git
+	branch = release/0.1.0
