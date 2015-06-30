@@ -2,12 +2,12 @@
 These projects are being evaluated for inclusion in Catalyst. Projects with public repositories are linked.
 
 ##Projects
-* [natural-languge-classifier-nodejs-cli](https://github.com/watson-developer-cloud/nodejs-wrapper) : Natural Language Classifier command-line-interface tool
-* [nodejs-wrapper](https://github.com/watson-developer-cloud/natural-language-classifier-nodejs-cli) : watson-developer-cloud npm module
-* [java-wrapper](https://github.com/watson-developer-cloud/java-wrapper) : a Java wrapper/client/sdk to use the IBM Watson services. Supports Android
-* content-resegmenter : automatically and intelligently resegment large PAUs into smaller ones
+* [Natural Languge Classifier (nodejs cli)](https://github.com/watson-developer-cloud/nodejs-wrapper) : Natural Language Classifier command-line-interface tool
+* [Nodejs Wrapper](https://github.com/watson-developer-cloud/natural-language-classifier-nodejs-cli) : watson-developer-cloud npm module
+* [Java Wrapper](https://github.com/watson-developer-cloud/java-wrapper) : a Java wrapper/client/sdk to use the IBM Watson services. Supports Android
+* [Document Resegmenter](https://github.com/watson-catalyst/document-segmenter) : automatically and intelligently resegment large PAUs into smaller ones
 * pdf2html : transform PDF documents into Watson-safe HTML
-* xml2html : transform XML documents into Watson-safe XML
+* [XML to HTML](https://github.com/watson-catalyst/xml-to-html) : transform XML documents into Watson-safe XML
 
 ##Libraries
 * base-properties : a library to make using a configurable `.properties` file easier. Currently a part of JumpQA.
