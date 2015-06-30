@@ -5,16 +5,17 @@
 ###The Catalyst Repository
 Catalyst contains the latest releases of all linked projects, a description of the Watson Catalyst project, and legal documents.
 
-Linked projects are included as [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). This mean
 
 ###Projects
-A project is . Each project falls into one of two categories, IBM-led and external-led. 
+Each project falls into one of two categories, IBM-led and external-led. The only notable difference between the two is how IBMers get permission to contribute to the project. All projects must conform to the [Community Standards](CommunityStandards.md).
+
+Linked projects are included as [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) in the Catalyst repository.
 
 ###IBM-Led Projects
-IBM-led projects are maintained by IBMers. 
+IBM-led projects are maintained by IBMers. They are approved by the Open Source Steering Committee before release.
 
-
-External-led projects may be started at any time by non-IBMers and hosted anywhere, but they must conform to the Catalyst Community Standards for the Catalyst repository to include them. For IBMers to contribute to external-led projects, we have an internal process to approve projects.
+###External-Led Projects
+External-led projects may be started at any time by non-IBMers and hosted anywhere. For IBMers to contribute they need OSSC approval, but otherwise
 
 ##People
 The Catalyst community is composed of several groups of people with varying functions and responsibilities.

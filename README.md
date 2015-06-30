@@ -35,6 +35,12 @@ git submodule update --init --recursive
 
 Anyone may contribute to Catalyst. Feel free to clone projects, make changes, and create pull requests to project maintainers! 
 
+##New Projects
+Anyone may contribute a new project to Catalyst. If you're interested in starting a new Catalyst project, we've got guidelines to follow. It is a little more complicated to start a new project if you are an IBMer, so we've got those instructions in a separate document.
+
+* [New Projects](NewProjects.md)
+* [New Projects (IBMers)](NewProjectsIBM.md)
+
 ##Structure
 *See also: [Structure](Structure.md)*
 
@@ -42,28 +48,28 @@ Watson Catalyst is a community of independent open source projects. Each project
 
 ##Projects
 * [JumpQA](https://github.com/watson-catalyst/jump-qa) - create ground truth from a corpus
+* [Q&A Safe Strings](https://github.com/watson-catalyst/qa-safe-strings) - convert Unicode strings to Watson-safe ASCII
 
 ##Libraries
-* [ObjectIO](https://github.com/watson-catalyst/object-io) - easily read and write Java objects
+* [Object IO](https://github.com/watson-catalyst/object-io) - easily read and write Java objects
 
 ##Coming Soon
 *See also: [Coming Soon](ComingSoon.md)*
 
 There are currently 6 upcoming projects and 3 upcoming libraries.
 
-##Wishlist
+##Wish List
 *See also: [Wish List](Wishlist.md)*
 
 We keep a wish list of tools we'd like people to work on, but have not yet started or added to Catalyst.
 
 ##Links
-* [FAQ](FAQ.md)
-
-##Licensing
-Catalyst is licensed under the [Apache License Version 2.0](License.txt).
+* [FAQ](faq.md)
+* [License](LICENSE.md)
+* [Changelog](CHANGELOG.md)
 
 ##Contact
-Point of Contact: [ostools@us.ibm.com](mailto:ostools@us.ibm.com)
+Point of Contact: [wabeason@us.ibm.com](mailto:wabeason@us.ibm.com)
 
 Moderators:
 - [William Beason](mailto:wabeason@us.ibm.com)
