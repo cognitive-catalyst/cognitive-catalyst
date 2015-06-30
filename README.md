@@ -66,6 +66,7 @@ We keep a wish list of tools we'd like people to work on, but have not yet start
 ##Links
 * [FAQ](faq.md)
 * [License](LICENSE.md)
+* [Changelog](CHANGELOG.md)
 
 ##Contact
 Point of Contact: [wabeason@us.ibm.com](mailto:wabeason@us.ibm.com)
