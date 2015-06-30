@@ -1,9 +1,9 @@
 #Quick Start
-This article is for people who want to use projects, but not necessarily contribute. If you would like to contribute to Catalyst or a project, see the [Contributing](Contributing.md) page.
+This article is for people who want to use projects, but not necessarily contribute. If you would like to contribute to Catalyst or a project, see the [Contributing](CONTRIBUTING.md) page.
 
 To download projects, you will need [Git](https://git-scm.com/downloads) installed. To interact with Git, you will need a shell terminal. If you're on Windows, Git comes with Git Bash.
 
-If you just want a `.zip` containing an individual project, go to the project's GitHub link on the [Projects](Projects.md) page. On the right, there is a **Download ZIP** button. Note that this will not contain any submodules.
+If you just want a `.zip` containing an individual project, go to the project's repository. On the right, there is a **Download ZIP** button. Note that this will not contain any submodules.
 
 ##Downloading Everything
 Note that this may take considerable time and space. In your terminal, go to the directory in which you want the Catalyst folder to be contained. Type:

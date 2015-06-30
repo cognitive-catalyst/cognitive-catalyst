@@ -1,5 +1,5 @@
 #Creating a New Project
-Thanks for wanting to create a new project for Catalyst!
+Thanks for wanting to create a new project for Catalyst! If you are an IBMer, see [New Projects (IBMers)](NewProjectsIBM.md).
 
 ##Repository Name Guidelines
 You don't have to follow these if you don't want to, but they do make it easier to work with your repository.
@@ -15,7 +15,7 @@ You don't have to follow these if you don't want to, but they do make it easier 
 
 ##Getting your project in Catalyst
 1. [Create an issue](https://github.com/watson-catalyst/watson-catalyst/issues) to have your project added. Be sure to provide a link to your repository!
-2. We will review your project and evaluate it using the Community Standards. The `moderators` will give you feedback by commenting on your issue.
+2. We will review your project and evaluate it using the [Community Standards](CommunityStandards.md). The `moderators` will give you feedback by commenting on your issue. If you have questions, feel free to ask them in a comment or an email to [wabeason@us.ibm.com](mailto:wabeason@us.ibm.com).
 3. Once we've agreed to move forward, we'll add your project by including it as a submodule in the Catalyst repository.
 
 ##Committing Rules
@@ -26,4 +26,7 @@ For Catalyst, we're using a [Developer Certificate of Origin](http://elinux.org/
 3. To get changes onto the `master` branch, do so with a pull request.
 4. Include the line `DCO 1.1 Signed-off-by: {Full Name} <{email address}>` (without the {}) at the bottom of your pull request message.
 
-If you forget to include the DCO line, you can still edit the request even after it's been closed.
+If you forget to include the DCO line, note that you can edit the pull request even after it's been closed.
+
+##IBM Contributions
+For IBMers to contribute to your project, it will need to be approved by IBM's Open Source Steering Committee. You don't have to do anything for this - Catalyst `Moderators` will work on it once your project has been accepted into Catalyst.

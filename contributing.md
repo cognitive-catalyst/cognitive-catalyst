@@ -1,10 +1,12 @@
 #Contributing to Watson Catalyst
 This document mostly deals with how contributing to Catalyst projects. Unless you are a moderator or project maintainer, you probably won't be making pull requests to **this** repository. Most changes to the Catalyst repository concern updating links to current Catalyst projects and the documentation (like this).
 
+If you're interested in starting a new Catalyst project, see [New Projects](NewProjects.md) if you are not an IBMer or [New Projects (IBMers)](NewPRojectsIBM.md) if you are. 
+
 Even after reading this, you'll still want to look at a project's CONTRIBUTING.md before contributing to see if they do anything differently. In most cases the documents should be very similar.
 
 ##Navigating the Repository
-The main folder is `projects`, which contains all of the repositories as submodules. You can [use submodules as regular Git repositories](Submodules.md), but it is easier to just clone the individual repository.
+The main folder is `projects`, which contains all of the repositories as submodules. You can use submodules as regular Git repositories, but it is easier to just clone the individual repository.
 
 ##Submitting Issues
 - Before creating a new issue, [do a quick search](https://github.com/watson-catalyst/watson-catalyst/issues?utf8=✓&q=is%3Aissue+user%3Awatson-catalyst) to see if someone else has already submitted the issue.
@@ -19,7 +21,7 @@ The main folder is `projects`, which contains all of the repositories as submodu
   -  [ ] acknowledging and agreeing to the [Developer Certificate of Origin](#developer-certificate-of-origin)
   -  [ ] reaching an agreement to move forward with a `contributor` or an `owner`.
 - Pull requests should reference their related issue(s). If the pull request closes an issue, [reference its closing from a commit message](https://help.github.com/articles/closing-issues-via-commit-messages/). Pull requests not referencing any issues will be closed.
-- Make your pull request titles descriptive. Explain at a high level what the issue is about and use the [Git commit message style](#git-commit-messages).
+- Make your pull request titles descriptive. Explain at a high level what the issue is about and use the [Git commit message style](#commit-messages).
 - Update the [CHANGELOG](CHANGELOG.md) with the changes made by the pull request.
 
 ##Developer Certificate of Origin
@@ -63,7 +65,7 @@ By making a contribution to this project, I certify that:
     this project or the open source license(s) involved.
 ```
 
-##Git Commit Messages
+##Commit Messages
 - Use the present tense (`"Add feature"` not `"Added feature"`)
 - Use the imperative mood (`"Fix bug"` not `"Fixes bug"`)
 - Limit the first line to 72 characters or less
@@ -90,3 +92,9 @@ For instance, when creating version `1.1.0`, start by merging `develop` into `ma
 The [CHANGELOG](CHANGELOG.md) should have a list of changes made for each version. They should be organized so additions come first, changes come second, and deletions come third. Version numbers should be 2nd level headers with the `v` in front (like a tag) and the date of the version's most recent update should be underneath in italics.
 
 Changelog messages do not need to cover each individual commit made, but rather should have individual summaries of the changes made. Changelog messages should be written in the same style as Git commit messages.
+
+##Copying This Document
+If you want your project to have the same committing guidelines as stated here, feel free to copy and change it as you wish as long as you follow the [Creative Commons 4.0 License](https://creativecommons.org/licenses/by/4.0/).
+
+##Attribution
+Portions of this document were shamelessly copied from Sam Richard's [CONTRIBUTING.md document](https://github.com/IBM-Watson/design-guide/blob/develop/CONTRIBUTING.md) in the [Watson Design Guide](https://github.com/IBM-Watson/design-guide) and edited for the purposes of Watson Catalyst. Watson Design Guide documentation by [International Business Machines Corporation](http://www.ibm.com/us/en/) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). The license holder of the original document does not in any way endorse the changes made.

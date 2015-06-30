@@ -7,9 +7,3 @@ These are projects in which people have expressed interest but do not yet curren
 - **Node.js tools as a front-end for Watson services**
 
 Make Watson services more usable by creating easily extensible Node.js tools.
-
----
-
-- **Safe, predictable character transforms before ingestion.**
-
-During ingestion, Q&A converts all data to ASCII and runs various manipulations on it. These are unfortunately unpredictable and subject to change without notice, so this project aims to preprocess corpora before ingestion.

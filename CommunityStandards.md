@@ -1,6 +1,6 @@
 # Catalyst Community Standards
 
-These are the standards to which we hold all Catalyst projects. For now, this is a first draft of what should be a living document. If you think something should be changed [drop us a note](mailto:ostools@us.ibm.com)!
+These are the standards to which we hold all Catalyst projects. For now, this is a first draft of what should be a living document. If you think something should be changed [drop us a note](mailto:wabeason@us.ibm.com)!
 
 ## Guiding Principles
 - Catalyst projects provide benefit to the use of Watson
@@ -11,6 +11,7 @@ Failing to meet any of these requirements are grounds for the rejection of new p
 
 ##1.1 Licensing
 - [ ] Projects must have an open source license.
+- [ ] All pull requests and commits to branches intended for release must acknowledge the [Developer Certificate of Origin](http://elinux.org/Developer_Certificate_Of_Origin) by including the one liner: `DCO 1.1 Signed-off-by: {Full Name} <{email address}>` (without the {}).
 
 ##1.2 Documentation
 Projects must have documentation including the following:
@@ -20,11 +21,11 @@ Projects must have documentation including the following:
 
 ##1.3 Concept and Functionality
 A Catalyst project must meet the following standards:
-- [ ] The project should make it easier to develop Watson-powered apps. It should
+- [ ] The project should make it easier to develop Watson-powered apps. It should do one of:
   - [ ] automate tasks,
   - [ ] simplify tasks,
   - [ ] facilitate integration for a Watson service, or
-  - [ ] act as a library for other Catalyst projects.
+  - [ ] act as a library for another Catalyst project.
 - [ ] The project is universal. It is not only usable by specific users, with specific content, or on specific Watson instances.
 - [ ] The project does not use the unsupported private APIs
 - [ ] The project is unlikely to cause unintentional irreparable damage to an instance.
@@ -32,12 +33,11 @@ A Catalyst project must meet the following standards:
 ##1.4 Support
 - [ ] Projects must have at least one maintainer, someone who
   - [ ] responds to questions about the project,
-  - [ ] tracks and resolves bugs,
-  - [ ] reviews and accepts pull requests,
-  - [ ] monitors contributions and requests CLAs as necessary, and
+  - [ ] tracks and resolves issues,
+  - [ ] reviews and accepts pull requests, and
   - [ ] contacts moderators to update the project in the Catalyst repository.
 
-#2 Recommendations
+#2 Best Practices
 We recommend projects follow these guidelines, but do not require it. We believe following these will ease collaboration and community expansion.
 
 ##2.1 Licensing
