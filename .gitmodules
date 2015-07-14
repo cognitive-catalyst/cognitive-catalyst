@@ -1,6 +1,7 @@
 [submodule "projects/jump-qa"]
 	path = projects/jump-qa
 	url = https://github.com/watson-catalyst/jump-qa.git
+  branch = master
 [submodule "projects/object-io"]
 	path = projects/object-io
 	url = https://github.com/watson-catalyst/object-io.git
@@ -9,3 +10,12 @@
 	path = projects/qa-safe-strings
 	url = https://github.com/watson-catalyst/qa-safe-strings.git
 	branch = release/0.1.0
+[submodule "projects/natural-language-classifier-nodjs-cli"]
+	path = projects/natural-language-classifier-nodjs-cli
+	url = https://github.com/watson-developer-cloud/natural-language-classifier-nodejs-cli.git
+[submodule "projects/java-wrapper"]
+	path = projects/java-wrapper
+	url = https://github.com/watson-developer-cloud/java-wrapper.git
+[submodule "projects/nodejs-wrapper"]
+	path = projects/nodejs-wrapper
+	url = https://github.com/watson-developer-cloud/nodejs-wrapper.git
