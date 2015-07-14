@@ -41,7 +41,7 @@ A Catalyst project must meet the following standards:
 We recommend projects follow these guidelines, but do not require it. We believe following these will ease collaboration and community expansion.
 
 ##2.1 Licensing
-We recommend the Apache, MIT, BSD, or the Eclipse Public License. These are the easiest licenses for IBMers to contribute to. Others may make it more difficult. In the case of GPL licenses, it may make IBM contributions impossible.
+We recommend the Apache or the Eclipse Public License.
 
 ##2.2 Documentation
 Projects are encouraged have a road map of future developments and bug fixes. Release notes should cover the major changes and bug fixes. Project READMEs should include discussion of which Watson services they help with or use, and how.
