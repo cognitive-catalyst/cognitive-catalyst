@@ -1,4 +1,4 @@
-#Watson Catalyst
+#Cognitive Catalyst
 An open source community for the development of extensions on the Watson platform to enable and accelerate the development of applications using Watson services. 
 
 **These documents are drafts** - information in it is subject to change in major ways as we figure out what we want this community to look like at launch.
@@ -20,13 +20,13 @@ If you just want to download projects, you can easily get all available projects
 
 Launch a terminal or Git Bash. In your directory of choice, enter
 ```
-git clone https://github.com/watson-catalyst/watson-catalyst.git
+git clone https://github.com/cognitive-catalyst/cognitive-catalyst.git
 cd WatsonCatalyst
 git submodule update --init --recursive
 ```
 This will get you the most recent Catalyst releases of every project. Whenever you want to ensure you have the latest versions of every project, run
 ```
-git pull https://github.com/watson-catalyst/watson-catalyst.git
+git pull https://github.com/cognitive-catalyst/cognitive-catalyst.git
 git submodule update --init --recursive
 ```
 
@@ -44,14 +44,14 @@ Anyone may contribute a new project to Catalyst. If you're interested in startin
 ##Structure
 *See also: [Structure](Structure.md)*
 
-Watson Catalyst is a community of independent open source projects. Each project is governed independently, but is held to certain standards. These [Community Standards](CommunityStandards.md) will be developed by the community as needed.
+Cognitive Catalyst is a community of independent open source projects. Each project is governed independently, but is held to certain standards. These [Community Standards](CommunityStandards.md) will be developed by the community as needed.
 
 ##Projects
-* [JumpQA](https://github.com/watson-catalyst/jump-qa) - create ground truth from a corpus
-* [Q&A Safe Strings](https://github.com/watson-catalyst/qa-safe-strings) - convert Unicode strings to Watson-safe ASCII
+* [JumpQA](https://github.com/cognitive-catalyst/jump-qa) - create ground truth from a corpus
+* [Q&A Safe Strings](https://github.com/cognitive-catalyst/qa-safe-strings) - convert Unicode strings to Watson-safe ASCII
 
 ##Libraries
-* [Object IO](https://github.com/watson-catalyst/object-io) - easily read and write Java objects
+* [Object IO](https://github.com/cognitive-catalyst/object-io) - easily read and write Java objects
 
 ##Coming Soon
 *See also: [Coming Soon](ComingSoon.md)*
@@ -69,7 +69,7 @@ We keep a wish list of tools we'd like people to work on, but have not yet start
 * [Changelog](CHANGELOG.md)
 
 ##Contact
-Point of Contact: [wabeason@us.ibm.com](mailto:wabeason@us.ibm.com)
+Point of Contact: [joshua.hall@us.ibm.com](mailto:joshua.hall@us.ibm.com)
 
 Moderators:
-- [William Beason](mailto:wabeason@us.ibm.com)
+- [Joshua Hall](mailto:joshua.hall@us.ibm.com)
