@@ -9,8 +9,8 @@ Even after reading this, you'll still want to look at a project's CONTRIBUTING.m
 The main folder is `projects`, which contains all of the repositories as submodules. You can use submodules as regular Git repositories, but it is easier to just clone the individual repository.
 
 ##Submitting Issues
-- Before creating a new issue, [do a quick search](https://github.com/watson-catalyst/watson-catalyst/issues?utf8=✓&q=is%3Aissue+user%3Awatson-catalyst) to see if someone else has already submitted the issue.
-- You can create issues [here](https://github.com/watson-catalyst/watson-catalyst/issues?utf8=✓&q=)
+- Before creating a new issue, [do a quick search](https://github.com/cognitive-catalyst/cognitive-catalyst/issues?utf8=✓&q=is%3Aissue+user%3Acognitive-catalyst) to see if someone else has already submitted the issue.
+- You can create issues [here](https://github.com/cognitive-catalyst/cognitive-catalyst/issues?utf8=✓&q=)
 - Make your issue titles descriptive. Explain at a high level what the issue is about and use the [Git commit message style](git-commit-messages).
 - Include the version number of the project being used or viewed.
 - Issues that have a number of sub-items that need to be completed should use [task lists](https://github.com/blog/1375%0A-task-lists-in-gfm-issues-pulls-comments) to track sub-items in the main issue comment.
@@ -74,7 +74,7 @@ By making a contribution to this project, I certify that:
 ##Branching Model
 Feel free to add more branch prefixes for your own project.
 
-- Branches must be made off of the most current `develop` branch from `git@github.com:watson-catalyst/watson-catalyst.git`
+- Branches must be made off of the most current `develop` branch from `git@github.com:cognitive-catalyst/cognitive-catalyst.git`
 - Branch names should be descriptive and describe what is being done in that branch
 - Pull requests must be made into our develop branch.
 - The following branch prefixes should be used when creating a new branch:
