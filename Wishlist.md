@@ -1,6 +1,6 @@
 #Wish List
 
-These are projects in which people have expressed interest but do not yet currently exist in Catalyst. If one looks interesting to you, feel free to start it and shoot an email to [wabeason@us.ibm.com](mailto:wabeason@us.ibm.com). Ditto for if you have an idea which should be here.
+These are projects in which people have expressed interest but do not yet currently exist in Catalyst. If one looks interesting to you, feel free to start it and shoot an email to [joshua.hall@us.ibm.com](mailto:joshua.halln@us.ibm.com). Ditto for if you have an idea which should be here.
 
 ---
 
