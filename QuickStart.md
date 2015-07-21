@@ -8,21 +8,21 @@ If you just want a `.zip` containing an individual project, go to the project's 
 ##Downloading Everything
 Note that this may take considerable time and space. In your terminal, go to the directory in which you want the Catalyst folder to be contained. Type:
 ```
-git clone https://github.com/watson-catalyst/watson-catalyst.git --recursive-submodules
+git clone https://github.com/cognitive-catalyst/cognitive-catalyst.git --recursive-submodules
 ```
 This will get you the most recent Catalyst releases of every project **and** all of their submodules, recursively.
 
 ##Updating Everything
 This may take considerable time depending on how long it has been since you last updated everything. In the Catalyst root directory, type:
 ```
-git pull https://github.com/watson-catalyst/watson-catalyst.git
+git pull https://github.com/cognitive-catalyst/cognitive-catalyst.git
 git submodule update --init --recursive
 ```
 
 ##Getting Catalyst
 For if you want to be able to download individual projects. In your terminal, go to the directory in which you want the Catalyst folder to be contained. Type:
 ```
-git clone https://github.com/watson-catalyst/watson-catalyst.git
+git clone https://github.com/cognitive-catalyst/cognitive-catalyst.git
 ```
 This will download the Catalyst repository but none of the Projects. 
 

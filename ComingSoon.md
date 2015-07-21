@@ -1,5 +1,5 @@
 #Coming Soon
-These projects are being evaluated for inclusion in Catalyst. Projects with public repositories are linked.
+These projects are being evaluated for inclusion in Cognitive Catalyst. Projects with public repositories are linked.
 
 ##Projects
 * [Natural Languge Classifier (nodejs cli)](https://github.com/watson-developer-cloud/nodejs-wrapper) : Natural Language Classifier command-line-interface tool

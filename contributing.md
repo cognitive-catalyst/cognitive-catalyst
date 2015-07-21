@@ -1,4 +1,4 @@
-#Contributing to Watson Catalyst
+#Contributing to Cognitive Catalyst
 This document mostly deals with how contributing to Catalyst projects. Unless you are a moderator or project maintainer, you probably won't be making pull requests to **this** repository. Most changes to the Catalyst repository concern updating links to current Catalyst projects and the documentation (like this).
 
 If you're interested in starting a new Catalyst project, see [New Projects](NewProjects.md) if you are not an IBMer or [New Projects (IBMers)](NewPRojectsIBM.md) if you are. 
@@ -25,7 +25,7 @@ The main folder is `projects`, which contains all of the repositories as submodu
 - Update the [CHANGELOG](CHANGELOG.md) with the changes made by the pull request.
 
 ##Developer Certificate of Origin
-All contributions to Watson Catalyst projects must be accompanied by acknowledgment of, and agreement to, the Developer Certificate of Origin, reproduced below. Acknowledgment of and agreement to the Developer Certificate of Origin must be included in the comment section of each contribution and must take the form of DCO 1.1 Signed-off-by: {Full Name} <{email address}> (without the {}). Contributions without this acknowledgment will be required to add it before being accepted. If a contributor is unable or unwilling to agree to the Developer Certificate of Origin, their contribution will not be included.
+All contributions to Cognitive Catalyst projects must be accompanied by acknowledgment of, and agreement to, the Developer Certificate of Origin, reproduced below. Acknowledgment of and agreement to the Developer Certificate of Origin must be included in the comment section of each contribution and must take the form of DCO 1.1 Signed-off-by: {Full Name} <{email address}> (without the {}). Contributions without this acknowledgment will be required to add it before being accepted. If a contributor is unable or unwilling to agree to the Developer Certificate of Origin, their contribution will not be included.
 
 ```
 Developer Certificate of Origin
@@ -97,4 +97,4 @@ Changelog messages do not need to cover each individual commit made, but rather 
 If you want your project to have the same committing guidelines as stated here, feel free to copy and change it as you wish as long as you follow the [Creative Commons 4.0 License](https://creativecommons.org/licenses/by/4.0/).
 
 ##Attribution
-Portions of this document were shamelessly copied from Sam Richard's [CONTRIBUTING.md document](https://github.com/IBM-Watson/design-guide/blob/develop/CONTRIBUTING.md) in the [Watson Design Guide](https://github.com/IBM-Watson/design-guide) and edited for the purposes of Watson Catalyst. Watson Design Guide documentation by [International Business Machines Corporation](http://www.ibm.com/us/en/) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). The license holder of the original document does not in any way endorse the changes made.
+Portions of this document were shamelessly copied from Sam Richard's [CONTRIBUTING.md document](https://github.com/IBM-Watson/design-guide/blob/develop/CONTRIBUTING.md) in the [Watson Design Guide](https://github.com/IBM-Watson/design-guide) and edited for the purposes of Cognitive Catalyst. Watson Design Guide documentation by [International Business Machines Corporation](http://www.ibm.com/us/en/) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). The license holder of the original document does not in any way endorse the changes made.

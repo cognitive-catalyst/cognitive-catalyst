@@ -1,4 +1,4 @@
-#Watson Catalyst Changelog
+#Cognitive Catalyst Changelog
 
 ##v0.2.0
 **June 30, 2015**

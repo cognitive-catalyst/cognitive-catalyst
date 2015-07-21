@@ -9,7 +9,7 @@ You don't have to follow these if you don't want to, but they do make it easier 
 - be consistent (think about how you'll find your repository later)
 
 ##Creating your Repository
-**Unless already approved by the OSSC, Ecosystem projects must be kept in private repositories in the Watson Catalyst organization until public release.**
+**Unless already approved by the OSSC, Ecosystem projects must be kept in private repositories in the Cognitive Catalyst organization until public release.**
 
 Since (1) Catalyst hasn't been released yet and (2) we don't have a fast track set up for Catalyst projects, this is the only way we may start a new repository for a Catalyst project. 
 
