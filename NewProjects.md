@@ -15,7 +15,7 @@ You don't have to follow these if you don't want to, but they do make it easier 
 
 ##Getting your project in Catalyst
 1. [Create an issue](https://github.com/watson-catalyst/watson-catalyst/issues) to have your project added. Be sure to provide a link to your repository!
-2. We will review your project and evaluate it using the [Community Standards](CommunityStandards.md). The `moderators` will give you feedback by commenting on your issue. If you have questions, feel free to ask them in a comment or an email to [wabeason@us.ibm.com](mailto:wabeason@us.ibm.com).
+2. We will review your project and evaluate it using the [Community Standards](CommunityStandards.md). The `moderators` will give you feedback by commenting on your issue. If you have questions, feel free to ask them in a comment or an email to [joshua.hall@us.ibm.com](mailto:joshua.hall@us.ibm.com).
 3. Once we've agreed to move forward, we'll add your project by including it as a submodule in the Catalyst repository.
 
 ##Committing Rules
