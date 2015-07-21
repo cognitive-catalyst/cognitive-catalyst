@@ -21,7 +21,7 @@ If you just want to download projects, you can easily get all available projects
 Launch a terminal or Git Bash. In your directory of choice, enter
 ```
 git clone https://github.com/cognitive-catalyst/cognitive-catalyst.git
-cd WatsonCatalyst
+cd cognitive-catalyst
 git submodule update --init --recursive
 ```
 This will get you the most recent Catalyst releases of every project. Whenever you want to ensure you have the latest versions of every project, run
