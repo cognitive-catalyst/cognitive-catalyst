@@ -1,4 +1,4 @@
-#About U
+#About Uu
 
 An open source community for the development of extensions on the Watson platform to enable and accelerate the development of applications using Watson services. 
 
