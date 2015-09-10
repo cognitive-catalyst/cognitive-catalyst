@@ -14,11 +14,9 @@ You don't have to follow these if you don't want to, but they do make it easier 
 Since (1) Catalyst hasn't been released yet and (2) we don't have a fast track set up for Catalyst projects, this is the only way we may start a new repository for a Catalyst project. 
 
 1. Send [joshua.hall@us.ibm.com](mailto:joshua.hall@us.ibm.com) the name you want your repository to have.
-2. Will Beason will create your repository and let you know when it's ready. You'll be added as an admin of that repository.
+2. Joshua Hall will create your repository and let you know when it's ready. You'll be added as an admin of that repository.
 
-We'll keep your project in a private repository until both (1) Catalyst is released to the public and (2) your project is approved by the OSSC. We will try to get projects in Catalyst before release approved by the OSSC so they all will go live at once.
-
-If your project gets in after we submit the OSSC proposal, you will have to wait until the OSSC approves it in order to make the repository public. Once we have a fast track set up with the OSSC, we will update this document.
+We'll keep your project in a private repository until your project is approved by the OSSC. Additionally, please review the guidelines here for securing the appropriate approval [here] (https://w3-connections.ibm.com/wikis/home?lang=en-us#!/wiki/W783ba5fa6c1a_40b3_945a_07d0eb0115bd/page/Posting%20Samples%20%26%20Product%20usage%20Examples)
 
 ##Getting your project in Catalyst
 1. [Create an issue](https://github.com/cognitive-catalyst/cognitive-catalyst/issues) to have your project added. Be sure to provide a link to your repository!
