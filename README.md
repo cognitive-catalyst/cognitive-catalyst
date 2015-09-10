@@ -6,9 +6,9 @@ An open source community for the development of extensions on the Watson platfor
 ##About Us
 **Mission**  
 To empower and engage people to collaboratively develop open source software which
-* augments Watson's capability,
-* makes it easier develop Watson apps, and
-* does cool things with Watson.
+* Augments Watson's capability,
+* Makes it easier develop appplications powered by IBM Watson
+* Develop cool things with Watson.
 
 **Vision**  
 A world where people collaboratively solve problems using Watson.
@@ -49,6 +49,8 @@ Cognitive Catalyst is a community of independent open source projects. Each proj
 ##Projects
 * [JumpQA](https://github.com/cognitive-catalyst/jump-qa) - create ground truth from a corpus
 * [Q&A Safe Strings](https://github.com/cognitive-catalyst/qa-safe-strings) - convert Unicode strings to Watson-safe ASCII
+* [Document Segmenter](https://github.com/cognitive-catalyst/document-segmenter) - A configurable segmenter to help break large sections (PAUs) into smaller ones for ingestion
+* [XML-HTML Converter](https://github.com/cognitive-catalyst/xml-to-html) - convert XML to HTML
 
 ##Libraries
 * [Object IO](https://github.com/cognitive-catalyst/object-io) - easily read and write Java objects
