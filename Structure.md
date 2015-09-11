@@ -36,3 +36,6 @@ If a project currently has maintainers, they may accept new ones.
 
 ###Moderators
 Moderators govern the community. They resolve disputes, accept new projects and releases, and liaison with IBM Watson teams. For now IBM will appoint moderators, but we intend the community to hold elections to elect new ones.
+
+###Legal Consultant
+The IBM Legal Consultant for Cognitive Catlayst is William Stock.
