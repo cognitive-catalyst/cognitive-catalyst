@@ -29,4 +29,4 @@ For Catalyst, we're using a [Developer Certificate of Origin](http://elinux.org/
 If you forget to include the DCO line, note that you can edit the pull request even after it's been closed.
 
 ##IBM Contributions
-For IBMers to contribute to your project, it will need to be approved by IBM's Open Source Steering Committee. You don't have to do anything for this - Catalyst `Moderators` will work on it once your project has been accepted into Catalyst.
+For IBMers to contribute to your project, it will need to be approved by IBM's Open Source Steering Committee. You don't have to do anything for this - Catalyst `Moderators` will work on it once your project has been accepted into Catalyst. See [New Projects (IBMers)](NewProjectsIBM.md).
