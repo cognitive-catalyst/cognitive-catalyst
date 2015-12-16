@@ -9,10 +9,6 @@ You don't have to follow these if you don't want to, but they do make it easier 
 - be consistent (think about how you'll find your repository later)
 
 ##Creating your Repository
-**Unless already approved by the OSSC, Ecosystem projects must be kept in private repositories in the Cognitive Catalyst organization until public release.**
-
-Since (1) Catalyst hasn't been released yet and (2) we don't have a fast track set up for Catalyst projects, this is the only way we may start a new repository for a Catalyst project. 
-
 1. Send [joshua.hall@us.ibm.com](mailto:joshua.hall@us.ibm.com) the name you want your repository to have.
 2. Joshua Hall will create your repository and let you know when it's ready. You'll be added as an admin of that repository.
 
