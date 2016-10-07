@@ -71,7 +71,7 @@ We keep a wish list of tools we'd like people to work on, but have not yet start
 * [Changelog](CHANGELOG.md)
 
 ##Contact
-Point of Contact: [joshua.hall@us.ibm.com](mailto:joshua.hall@us.ibm.com)
+Point of Contact: [jhalla14@gmail.com](mailto:jhalla14@gmail.com)
 
 Moderators:
-- [Joshua Hall](mailto:joshua.hall@us.ibm.com)
+- [Joshua Hall](mailto:jhalla14@gmail.com)
